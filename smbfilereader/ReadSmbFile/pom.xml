@@ -1,0 +1,23 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>smb.techiesandeep.com</groupId>
+	<artifactId>ReadSmbFile</artifactId>
+	<packaging>jar</packaging>
+	<version>1.0-SNAPSHOT</version>
+	<name>ReadSmbFile</name>
+	<url>http://maven.apache.org</url>
+
+	<properties>
+		<jcifs.version>1.3.17</jcifs.version>
+	</properties>
+
+
+	<dependencies>
+		<dependency>
+			<groupId>jcifs-1.3.17</groupId>
+			<artifactId>jcifs</artifactId>
+			<version>${jcifs.version}</version>
+		</dependency>
+	</dependencies>
+</project>
