@@ -122,18 +122,7 @@ public class SambaFileReader implements JCIFSInterface{
 		fileMapping.put(fileName, filePath);
 	}
 
-	/* 
-	 * Return Smbfle object for inputed file.
-	 * */
-	@Override
-	public void getAllSmbFiles() throws ReadSmbException {
-		
-	}
-
-	@Override
-	public void closeSmbConnection() throws ReadSmbException {
-		
-	}
+	
 
 	/* 
 	 * @param pass fileName which you want to to read from samba server.

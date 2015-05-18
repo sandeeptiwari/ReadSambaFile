@@ -5,14 +5,10 @@ import java.net.UnknownHostException;
 
 public class SmbUtils {
 	
-	/**
-	 * @param hostName
-	 * @return
-	 * @purpose convert DNS to its particular IP address.
-	 */
+	//convert DNS to its particular IP address.
 	public static String convertSmbAddress(String hostName){
 
-		InetAddress inetAddress = null;;
+		InetAddress inetAddress = null;
 		try {
 			inetAddress = InetAddress.getByName(hostName);
 			return inetAddress.getHostAddress();
